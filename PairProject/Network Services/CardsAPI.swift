@@ -23,7 +23,7 @@ final class CardsAPI{
         }
     }
 }
-    static func getPokemonCards (completionHandler: @escaping(AppError?,[PokemonCard.CardWrapper]?) -> Void){
+    static func getPokemonCards (completionHandler: @escaping(AppError?,[PokemonCard.PokemonCardWrapper]?) -> Void){
         NetworkHelper.shared.performDataTask(endpointURLString:"https://api.pokemontcg.io/v1/cards?contains=imageUrl,imageUrlHiRes,attacks") { (appError, data, httpResponse) in
             if let appError = appError {
                 completionHandler(appError, nil)
@@ -38,4 +38,5 @@ final class CardsAPI{
             }
         }
     }
+    
 }

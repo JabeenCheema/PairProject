@@ -9,20 +9,18 @@
 import Foundation
 
 struct PokemonCard: Codable {
-    let cards: [CardWrapper]
-    struct CardWrapper: Codable {
-        let imageURL: URL?
-        let imageUrlHiRes: URL
+    let cards: [PokemonCardWrapper]
+    
+    struct PokemonCardWrapper: Codable {
+        let imageUrl: String?
+        let imageUrlHiRes: String?
         let attacks: [Attacks]
     }
-
-
 }
 
 struct Attacks: Codable {
-
+    
     let name: String
     let damage: String
     let text: String
-
 }

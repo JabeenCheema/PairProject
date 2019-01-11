@@ -265,7 +265,7 @@
         <!--Pokemon Detailed View Controller-->
         <scene sceneID="zgQ-ee-2Od">
             <objects>
-                <viewController id="jip-qD-5dc" customClass="PokemonDetailedViewController" customModule="PairProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="pokemonDetail" id="jip-qD-5dc" customClass="PokemonDetailedViewController" customModule="PairProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WfJ-ts-sou">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -285,7 +285,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="168" id="kVP-TU-T3F"/>
                                         </constraints>
-                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dTe-Wx-vRY">
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dTe-Wx-vRY">
                                             <size key="itemSize" width="305" height="159"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -293,7 +293,7 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PokemonDetailedCell" id="Cnm-Z8-jch" customClass="PokemonDetailedCell" customModule="PairProject" customModuleProvider="target">
-                                                <rect key="frame" x="1.5" y="0.0" width="305" height="159"/>
+                                                <rect key="frame" x="0.0" y="4.5" width="305" height="159"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                     <rect key="frame" x="0.0" y="0.0" width="305" height="159"/>
@@ -342,7 +342,7 @@
                                         </cells>
                                     </collectionView>
                                     <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Fdv-Pe-HSW">
-                                        <rect key="frame" x="150" y="131" width="37" height="37"/>
+                                        <rect key="frame" x="149.5" y="130.5" width="37" height="37"/>
                                     </activityIndicatorView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

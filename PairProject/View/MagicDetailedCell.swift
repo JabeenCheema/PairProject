@@ -11,11 +11,8 @@ import UIKit
 class MagicDetailedCell: UICollectionViewCell {
     @IBOutlet weak var magicDetailedImage: UIImageView!
     @IBOutlet weak var magicNameLabel: UILabel!
-    
     @IBOutlet weak var magicLanguageLabel: UILabel!
-
     @IBOutlet weak var magicDesciptionText: UITextView!
-    
     @IBOutlet weak var magicDetailedActivityIndicator: UIActivityIndicatorView!
     
 

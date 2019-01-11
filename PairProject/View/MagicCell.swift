@@ -10,6 +10,5 @@ import UIKit
 
 class MagicCell: UICollectionViewCell {
     @IBOutlet weak var magicImage: UIImageView!
-    
     @IBOutlet weak var magicActivityIndicator: UIActivityIndicatorView!
 }

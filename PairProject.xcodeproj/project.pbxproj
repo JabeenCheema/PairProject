@@ -104,10 +104,10 @@
 		45FD440421E669EE008A72E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				45FD440121E669A0008A72E2 /* PokemonDetailedCell.swift */,
-				45FD43FF21E6692A008A72E2 /* MagicDetailedCell.swift */,
 				45FD43FD21E66901008A72E2 /* PokemonCell.swift */,
+				45FD440121E669A0008A72E2 /* PokemonDetailedCell.swift */,
 				45FD43FB21E668D0008A72E2 /* MagicCell.swift */,
+				45FD43FF21E6692A008A72E2 /* MagicDetailedCell.swift */,
 				45FD440C21E6832A008A72E2 /* Supporting Files */,
 			);
 			path = View;
